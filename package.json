@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": ["agma.io", "agma", "agmaio", "script", "commands"],
   "author": "CodingWithNuke",
   "license": "ISC",
   "dependencies": {},
