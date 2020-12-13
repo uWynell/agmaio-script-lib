@@ -1,10 +1,11 @@
-# agmaio-script-core
+# agmaio-script-lib
 Create an Agma.io script with ease.
 
 ## Table of Contents
 
   - [Features](#features)
   - [Installing](#installing)
+  - [Building your script](#building-your-script)
   - [Examples](#examples)
 
 ## Features
@@ -14,31 +15,34 @@ Create an Agma.io script with ease.
 ## Installing
 Using NPM:
 ```bash
-$ npm install agmaio-script-core
+$ npm install agmaio-script-lib
 ```
 
 Using Yarn:
 ```bash
-$ yarn add agmaio-script-core
+$ yarn add agmaio-script-lib
 ```
 
+## Example
+If you wish to build your script to test/use it, you can take a look at the [agmaio-script-lib-template](https://github.com/CodingWithNuke/agmaio-script-lib-template) repository.
+
 ## Examples
-More examples can be found [here](/examples).
+See the [agmaio-script-lib-template](https://github.com/CodingWithNuke/agmaio-script-lib-template) repository for a full example.
 
 CommonJS usage:
 ```js
-const { Core } = require('agmaio-script-core');
+const { Core } = require('agmaio-script-lib');
 ```
 
 ES6 usage:
 ```js
-import { Core } from 'agmaio-script-core';
+import { Core } from 'agmaio-script-lib';
 ```
 
 Creating a command
 ```js
 
-const { Core, Command } = require('agmaio-script-core');
+const { Core, Command } = require('agmaio-script-lib');
 
 // Create the script instance.
 const Script = new Core();
@@ -57,7 +61,7 @@ Script.CommandModule.addCommand(ExampleCommand);
 
 Creating a command and using args
 ```js
-const { Command } = require('agmaio-script-core');
+const { Command } = require('agmaio-script-lib');
 
 // Create a command which will use the first argument given as name.
 const ExampleArgsCommand = new Command({
