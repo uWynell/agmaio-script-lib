@@ -10,7 +10,7 @@
   },
   "keywords": ["agma.io", "agma", "agmaio", "script", "commands"],
   "author": "CodingWithNuke",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "typescript": "^4.1.3"
