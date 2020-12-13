@@ -1,4 +1,4 @@
-# agmaio-script-lib
+# agmaio-script-core
 Create an Agma.io script with ease.
 
 ## Table of Contents
