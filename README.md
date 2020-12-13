@@ -6,7 +6,6 @@ Create an Agma.io script with ease.
   - [Features](#features)
   - [Installing](#installing)
   - [Examples](#examples)
-  - [Methods](#methods)
 
 ## Features
 - Create commands per file.
